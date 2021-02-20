@@ -3,7 +3,7 @@ import serial
 # Inicializamos el puerto de serie a 9600 baud
 ser = serial.Serial('COM3', 9600)
 
-# Mostramos una chuleta con todos los comandos
+# Mostramos un mensaje para que el usuario introduzca un valor o la letra "s" para salir del bucle
 print("Introduce un numero entre 0-180, o 's' para salir del programa\n")
 
 # Guardamos el numero en una variable
